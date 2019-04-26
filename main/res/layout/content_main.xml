@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_marginTop="70dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="160dp"
+        android:text="Log-in"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="30sp"
+        app:fontFamily="sans-serif-black" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="35dp"
+        android:background="#11000000"
+        android:ems="10"
+        android:hint="Login-ID"
+        android:inputType="textPersonName"
+        android:textColor="@color/common_google_signin_btn_text_dark_pressed" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="75dp"
+        android:layout_marginBottom="35dp"
+        android:background="#11000000"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="@color/common_google_signin_btn_text_dark_pressed" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginBottom="30dp"
+        android:background="@android:color/holo_blue_dark"
+        android:text="Login"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginBottom="30dp"
+        android:background="@android:color/holo_blue_dark"
+        android:text="History-betaV"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="24sp" />
+
+</LinearLayout>

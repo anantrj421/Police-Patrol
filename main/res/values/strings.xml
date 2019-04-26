@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Ebeat</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_main3">Main3Activity</string>
+    <string name="title_activity_main4">Main4Activity</string>
+    <string name="title_activity_crime_report_class">CrimeReportClass</string>
+    <string name="title_activity_check_in_data">checkInData</string>
+    <string name="title_activity_maps1">Map</string>
+    <string name="title_activity_maps2">Map</string>
+    <string name="title_activity_filecontent">filecontent</string>
+</resources>
